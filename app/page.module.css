@@ -3,28 +3,69 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 3rem 6rem;
   min-height: 100vh;
 }
 
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
+.header {
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
 }
 
-.description a {
+.logo {
+  display: flex;
+  margin: auto;
+}
+
+.contentHeaderUpper {
+  margin-top: 50px;
+}
+
+.contentHeaderUpper > h1 {
+  color: var(--color-font);
+  text-align: center;
+}
+
+.contentHeaderLower {
+  margin-top: 20px;
+  padding: 0 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  flex-direction: row;
+  gap: 10px;
 }
 
+.contentHeaderLower div{
+  flex: 50%
+}
+
+.contentHeaderLower p {
+  color: var(--color-font);
+  font-size: 18px;
+}
+
+.socialmedia {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.makeAppointment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 50px;
+  background-color: #1F497B;
+  color: var(--color-font);
+  font-weight: bold;
+  border-radius: 28px;
+}
+              
+/*
 .description p {
   position: relative;
   margin: 0;
@@ -32,13 +73,9 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
-}
+}*/
 
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
-}
-
+/*-----------------------------------------*/
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
@@ -79,7 +116,7 @@
   position: relative;
   padding: 4rem 0;
 }
-
+/*
 .center::before {
   background: var(--secondary-glow);
   border-radius: 50%;
@@ -102,7 +139,7 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
-}
+}*/
 
 .logo {
   position: relative;
@@ -127,6 +164,20 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+  .main{
+    padding: 3rem 3rem;
+  }
+  
+  .contentHeaderLower {
+    flex-direction: column;
+  }
+
+  .contentHeaderLower iframe {
+    margin-top: 20px;
+    width: 280px;
+    height: 280px;
+  }
+
   .content {
     padding: 4rem;
   }
@@ -202,7 +253,7 @@
   }
 }
 
-/* Tablet and Smaller Desktop */
+/* Tablet and Smaller Desktop 
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
@@ -227,3 +278,4 @@
     transform: rotate(0deg);
   }
 }
+*/
