@@ -27,34 +27,28 @@ export default function Home() {
             <div>
               <p>No estas solo, estamos aquí para ser tus compañeros de ruta, tus guías, y tus aliados en cada paso del proceso de migración.</p>
               <div className={styles.socialmedia}>
-                <Link href="/">
-                  <img width="48"
-                    height="48"
-                    src="https://img.icons8.com/color/48/facebook-new.png"
-                    alt="facebook-new" />
-                </Link>
-                <Link href="/">
+                <Link href="https://www.instagram.com/migracion_responsable/">
                   <img width="48"
                     height="48"
                     src="https://img.icons8.com/color/96/instagram-new--v1.png"
                     alt="instagram-new--v1" />
                 </Link>
-                <Link href="/">
+                <Link href="https://www.tiktok.com/@migracionresponsable.com">
                   <img width="48"
                     height="48"
                     src="https://img.icons8.com/color/48/tiktok--v1.png"
                     alt="tiktok--v1" />
                 </Link>
-                <Link href="/">
-                  <img width="48"
-                    height="48"
-                    src="https://img.icons8.com/color/48/twitterx--v1.png"
-                    alt="twitterx--v1" />
+                <Link href="mailto:info@migracionresponsable.com">
+                  <img width="48" 
+                    height="48" 
+                    src="https://img.icons8.com/color/48/gmail-new.png" 
+                    alt="gmail-new" />
                 </Link>
               </div>
               <Link href="https://calendly.com/migracionresponsable/asesoria-migracion?month=2023-10"
                 className={styles.makeAppointment}>
-                Programa una cita con nuestro asesor</Link>
+                Reserva tu asesoría aqui</Link>
             </div>
             <iframe width="480" height="280" src="https://www.youtube.com/embed/OeZPQid1UE8?si=rLfz40_CBiFS8BiG" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
